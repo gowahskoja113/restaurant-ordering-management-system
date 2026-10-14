@@ -1,0 +1,17 @@
+{
+  "name": "restaurant-ordering-management-system",
+  "private": true,
+  "version": "0.0.0",
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ],
+  "scripts": {
+    "dev:web": "npm run dev -w @restaurant/web",
+    "build:web": "npm run build -w @restaurant/web",
+    "preview:web": "npm run preview -w @restaurant/web",
+    "build": "npm run build --workspaces --if-present",
+    "lint": "npm run lint --workspaces --if-present",
+    "typecheck": "npm run typecheck --workspaces --if-present"
+  }
+}

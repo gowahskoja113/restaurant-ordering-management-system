@@ -1,0 +1,46 @@
+# Private docs
+docs/
+
+# Dependencies
+node_modules
+
+# Build output
+dist
+dist-ssr
+build
+target/
+coverage
+*.tsbuildinfo
+
+# Logs
+logs
+*.log
+
+# Environment & secrets
+.env
+.env.*
+!.env.example
+*.local
+apps/api/src/main/resources/application-*.yaml
+apps/api/src/main/resources/application-*.yml
+apps/api/src/main/resources/application-*.properties
+*.pem
+*.key
+*.p12
+*.jks
+*.keystore
+
+# Local data
+docker/data/
+uploads/
+
+# IDE / OS
+.idea
+*.iml
+*.iws
+*.ipr
+.vscode/*
+!.vscode/extensions.json
+.cursor/
+.DS_Store
+Thumbs.db
